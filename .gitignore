@@ -1,0 +1,4 @@
+mpenv/
+migrations/
+media/
+__pycache__/
