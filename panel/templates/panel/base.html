@@ -1,0 +1,22 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title id="page-title">MyPanel - Abdurakhmon Omonov</title>
+        <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/mypanel.css' %}">
+        <link rel="shortcut icon" type="image/x-icon" href="{% static 'icons/favicon.png' %}">
+        <script language="JavaScript" type="text/javascript" src="{% static 'js/jquery-3.6.4.min.js' %}"></script>
+        <script language="JavaScript" type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
+    </head>
+    <body id="panel-body">
+        <script src="{% static 'js/bootstrap.min.js' %}"></script>
+        {% block content %}{% endblock content %}
+    </body>
+    <script>
+        
+    </script>
+</html>
